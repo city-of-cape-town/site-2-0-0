@@ -21,7 +21,7 @@ breadcrumbs:
       label: menu.updates
 cookie_consent_form:
   enabled: false
-city:
+country:
   name: Cape Town
   adjective: Capetonian
 create_goals:
@@ -190,9 +190,9 @@ menu:
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
-  - scope: local
-    title: indicator.local_metadata
-    description: indicator.local_metadata_blurb
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
