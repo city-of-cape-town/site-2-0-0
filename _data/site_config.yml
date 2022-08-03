@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Cape Town
+  adjective: Capetonian
 create_goals:
   previous_next_links: false
   goals: []
@@ -93,8 +93,8 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: City of Cape Town data for Sustainable Development Goal indicators
-  description: Click on each goal for Cape Town Sustainable Development Goal local indicator data
+  title: my-custom-translations.my-goals-grid-title
+  description: my-custom-translations.my-goals-grid-description
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
