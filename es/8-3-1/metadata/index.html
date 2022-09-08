@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-2-0-0/assets/css/style.css?v=20220908111559">
+        <link rel="stylesheet" href="/site-2-0-0/assets/css/style.css?v=20220908114203">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -546,18 +546,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS__GLOBAL'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR_INFO', "");
-        var propertyEditor = editor.getEditor('root.SDG_INDICATOR_INFO');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_INDICATOR_INFO');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
     
@@ -644,18 +632,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('CONTACT', "");
-        var propertyEditor = editor.getEditor('root.CONTACT');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: CONTACT');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT'));
 
     
@@ -756,23 +732,11 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('IND_DEF_CON_CLASS', "");
-        var propertyEditor = editor.getEditor('root.IND_DEF_CON_CLASS');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: IND_DEF_CON_CLASS');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Definition:\nBeing explored by Mojalefa and Jameyah\n## Concepts:\n**Informal:**\n\n**Poverty Line:** It's basically everyone in Cape Town\n\n**Employment:** Ask Capetonians about it, no one knows the actual definition");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Definition:\nBeing explored by Mojalefa and Jameyah\n## Concepts:\n**Informal:**\n\n**Poverty Line:** ");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -812,18 +776,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SRC_TYPE_COLL_METHOD', "");
-        var propertyEditor = editor.getEditor('root.SRC_TYPE_COLL_METHOD');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SRC_TYPE_COLL_METHOD');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD'));
 
     
@@ -924,18 +876,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('OTHER_METHOD', "");
-        var propertyEditor = editor.getEditor('root.OTHER_METHOD');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: OTHER_METHOD');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD'));
 
     
@@ -1120,18 +1060,6 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('un_designated_tier', "");
-        var propertyEditor = editor.getEditor('root.un_designated_tier');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: un_designated_tier');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
 
     
@@ -1271,12 +1199,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site-2-0-0/assets/js/sdg.js?v=20220908111559'></script>
+<script src='/site-2-0-0/assets/js/sdg.js?v=20220908114203'></script>
 
 
     
     
-    <script src="/site-2-0-0/assets/js/custom.js?v=20220908111559"></script><script>
+    <script src="/site-2-0-0/assets/js/custom.js?v=20220908114203"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
