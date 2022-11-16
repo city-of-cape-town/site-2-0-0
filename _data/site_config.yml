@@ -22,7 +22,7 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Cape Town
+  name: City of Cape Town
   adjective: Capetonian
 create_goals:
   previous_next_links: false
