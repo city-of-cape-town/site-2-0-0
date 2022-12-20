@@ -25,6 +25,7 @@ country:
   name: City of Cape Town
   adjective: Capetonian
 create_goals:
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
